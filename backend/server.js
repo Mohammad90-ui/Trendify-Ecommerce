@@ -28,7 +28,7 @@ app.use(cookieParser());
 
 // CORS middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'https://trendify-ecommerce-nu.vercel.app'],
   credentials: true
 }));
 
