@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { logout } from './authSlice';
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: import.meta.env.VITE_API_URL || 'http://localhost:5000',
+  baseUrl: import.meta.env.VITE_API_URL || 'https://trendify-ecommerce-1.onrender.com',
   credentials: 'include',
 });
 
